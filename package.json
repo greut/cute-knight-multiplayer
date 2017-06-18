@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "run": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "canvas": "^1.6.5",
+    "express": "^4.15.3",
+    "jsdom": "^11.0.0",
+    "nodemon": "^1.11.0",
+    "phaser-ce": "^2.8.0",
+    "socket.io": "^2.0.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

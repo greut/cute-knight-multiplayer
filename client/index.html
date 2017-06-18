@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang=fr>
+<meta charset="utf-8">
+<title>Multijoueur</title>
+<style>
+canvas {
+    margin: 0 auto;
+    image-rendering: -moz-crip-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -o-crisp-edges;
+    image-rendering: pixelated;
+}
+
+footer { color: #999; text-align:right }
+</style>
+<main id=game></main>
+<footer>
+    <p>Images: by <a href="https://goglilol.itch.io/cute-knight">@goglilol</a></p>
+</footer>
+<script src="/socket.io/socket.io.js"></script>
+<script src="libs/phaser.min.js"></script>
+<script src="client/js/hero.js"></script>
+<script src="client/js/play.js"></script>
+<script src="js/main.js"></script>
+</html>
